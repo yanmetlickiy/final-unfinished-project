@@ -1,0 +1,237 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*******/
+.center {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.triton {
+  max-width: 1112px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+footer {
+  background: #181818;
+}
+
+footer .loft-go {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer .loft-go .footer-lo-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+footer .loft-go .footer-lo-up .lo-left h4 {
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+footer .loft-go .footer-lo-up .lo-left p {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 121%;
+  letter-spacing: 0.233333px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  width: 543px;
+}
+
+footer .loft-go .footer-lo-up .lo-left a {
+  text-decoration: none;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 121%;
+  letter-spacing: 0.233333px;
+  color: #1850E2;
+}
+
+footer .loft-go .footer-lo-up .lo-right .btn-lo {
+  width: 349px;
+  height: 45px;
+  background: #1850E2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .loft-go .footer-lo-up .lo-right .btn-lo a {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 88%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  text-decoration: none;
+}
+
+footer .loft-go .line-backg {
+  border: 1px solid #979797;
+}
+
+footer .loft-go .footer-lo-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .loft-go .footer-lo-bottom .left-fc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 40px;
+}
+
+footer .loft-go .footer-lo-bottom .left-fc .fb h5 {
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.233333px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+footer .loft-go .footer-lo-bottom .left-fc .fb p {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0.233333px;
+  color: #FFFFFF;
+}
+
+footer .loft-go .footer-lo-bottom .left-fc .oop1 {
+  width: 135px;
+}
+
+footer .loft-go .footer-lo-bottom .left-fc .oop2 {
+  width: 109px;
+  margin-left: 57px;
+  margin-right: 81px;
+}
+
+footer .loft-go .footer-lo-bottom .left-fc .oop3 {
+  width: 81px;
+  margin-right: 104px;
+}
+
+footer .loft-go .footer-lo-bottom .left-fc .oop4 {
+  width: 96px;
+}
+
+footer .loft-go .footer-lo-bottom .left-fc .oop4 .ssk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .loft-go .footer-lo-bottom .v-line {
+  border: 1px solid #979797;
+  margin-left: 100px;
+  margin-right: 90px;
+}
+
+footer .loft-go .footer-lo-bottom .right-fc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+}
+
+footer .loft-go .footer-lo-bottom .right-fc .ri-lef-bb p {
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 121%;
+  letter-spacing: 0.233333px;
+  color: #FFFFFF;
+}
+
+footer .loft-go .footer-lo-bottom .right-fc .ri-ri-bb a img {
+  width: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=exconfooter.css.map */

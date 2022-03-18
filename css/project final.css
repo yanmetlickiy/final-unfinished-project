@@ -1,0 +1,364 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/*******/
+
+.wrapper{
+	max-width: 2128px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.center{
+	max-width: 1300px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+/* head-container */
+
+
+.head-container{
+    background: url(../images/header-fon1.png);
+    background-repeat: no-repeat;
+	background-size: cover;
+    object-fit: cover;
+    Width: 100%;
+    max-width: 100%;
+    /* Height: 776px; */
+}
+
+.head-container .bg-gradient{
+    background: linear-gradient(360deg, #181818 0%, rgba(24, 80, 226, 0.65) 48.62%, #181818 100%);
+    Width: 100%;
+    /* Height: 776px; */
+}
+
+.head-container .hat{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 23px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.head-container .hat .logo img{
+    filter: drop-shadow(0px 2px 5px #000000);
+}
+
+.head-container .hat .Group-Registration{
+    display: flex;
+    justify-content: space-around;
+}
+
+.head-container .hat .Group-Registration .Group form{
+    width: 159px;
+	margin: 0 auto;
+	position: relative;
+    margin-right: 20px;
+}
+
+.head-container .hat .Group-Registration .Group form input{
+    border: 1px solid rgba(242, 243, 244, 0.5);
+    box-sizing: border-box;
+    background: transparent;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: right;
+    letter-spacing: 0.833333px;
+    text-transform: uppercase;
+    color: #F2F3F4;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 20px;
+}
+
+.head-container .hat .Group-Registration .Group form input::placeholder{
+    color: #F2F3F4;
+}
+
+
+.head-container .hat .Group-Registration .Registration p{
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1.16667px;
+    color: #F2F3F4;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    margin-right: 7px;
+}
+
+.head-container .hat .Group-Registration .btn-open{
+    width: 54px;
+    height: 20px;
+    background: #1850E2;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.head-container .hat .Group-Registration .btn-open a{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 13px;
+    letter-spacing: 0.833333px;
+    text-transform: uppercase;
+    color: #F2F3F4;
+    text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    
+}
+
+.head-container .ExCon-Competition{
+    margin-left: 108px;
+}
+
+.head-container .ExCon-Competition h1{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    font-size: 120px;
+    line-height: 106px;
+    text-transform: uppercase;
+    color: #F2F3F4;
+    margin-top: 182px;
+}
+
+.head-container .ExCon-Competition .Compete-against p{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #F2F2F2;
+}
+
+.head-container .ExCon-Competition .Compete-against{
+    display: flex;
+    margin-top: 40px;
+}
+
+.head-container .ExCon-Competition .Compete-against img{
+    margin-left: 53px;
+    margin-top: 8px;
+}
+
+.head-container .ExCon-Nav-Button{
+    background-color: #1F3571 ;
+}
+
+.head-container .ExCon-Nav-Button .Nav-Bar{
+    margin-top: 201px;
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    column-gap: 1px;
+    row-gap: 1px;
+    align-items: center;
+    justify-items: center;
+    /* border: 1px solid  #1F3571 ; */
+    background: linear-gradient(180deg, #101C3C 0%, #181818 100%);
+    background-color: #1F3571 ;
+}
+
+
+.head-container .ExCon-Nav-Button .Nav-Bar li a{
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #F2F3F4;
+    text-decoration: none;
+}
+
+
+/* Mission */
+
+
+/* .Mission{ }*/
+
+
+.Mission .Mission-bg-gradient{
+    background: linear-gradient(179.47deg, #101C3C 11.96%, #181818 99.54%);
+}
+
+/* .Mission .Mission-bg-gradient .Mission-Nav-Button{} */
+
+.Mission .Mission-bg-gradient .Mission-Nav-Button .Mission-Nav-Bar{
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px;
+    column-gap: 1px;
+    row-gap: 1px;
+    align-items: center;
+    justify-items: center;
+    /* border: 1px solid  #1F3571 ; */
+    background: linear-gradient(180deg, #101C3C 0%, #181818 100%);
+    background-color: #1F3571 ;
+}
+
+/* .Mission .Mission-bg-gradient .Mission-Nav-Button .Mission-Nav-Bar li{
+    border: 1px solid #1F3571;
+} */
+
+.Mission .Mission-bg-gradient .Mission-Nav-Button .Mission-Nav-Bar li a{
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color:  #FFFFFF;
+    text-decoration: none;
+}
+
+.Mission .Mission-bg-gradient .Mission-content  h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    text-align: center;
+    letter-spacing: 0.666667px;
+    text-transform: uppercase;
+    color: #F2F3F4;
+    padding-top: 118px;
+}
+
+.Mission .Mission-bg-gradient .Mission-content  p{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #F2F3F4;
+    width: 963px;
+    margin: 0 auto ;
+    padding-top: 29px;
+}
+
+.Mission .Mission-bg-gradient .Mission-content img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 94px;
+}
+
+.Mission .Mission-bg-gradient .Mission-content  h5{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: 7.33333px;
+    text-transform: uppercase;
+    color: #1850E2;
+    padding-bottom: 20px;
+    padding-top: 61.2px;
+}
+.Mission .Mission-bg-gradient .Mission-content .container-link{
+    display: grid;
+    grid-template-columns: 160px 160px 160px 160px;
+    grid-template-rows: 216px 216px;
+    column-gap: 30px;
+    row-gap: 44px;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.Mission .Mission-bg-gradient .Mission-content .container-link .bb{
+    display: flex;
+    align-items: center;
+    border: 1px solid #1850E2;
+    justify-content: center;
+}
+
+.Mission .Mission-bg-gradient .Mission-content .container-link .bb a{
+    font-family: 'Oswald';
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #1850E2;
+    text-decoration: none;
+}
+
+.Mission .Mission-bg-gradient .Mission-content .blur-logo .img-pos{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Mission .Mission-bg-gradient .Mission-content .blur-logo .img-pos img{
+    color: rgba(220, 56, 38, 0.423573);
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    position: relative;
+    /* padding-bottom: 314px; */
+}
+
+.Mission .Mission-bg-gradient .Mission-content .blur-logo .img-pos .img-left{
+    margin-left: -271px;
+    margin-right: 158px;
+}
+
+.Mission .Mission-bg-gradient .Mission-content .blur-logo p{
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #A3B9F3;
+}
+
+/* .Mission .Mission-bg-gradient .Mission-content .blur-logo p{} */

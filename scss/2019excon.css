@@ -1,0 +1,1506 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*******/
+.center {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.triton {
+  max-width: 1112px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Mission */
+.Mission .Mission-bg-gradient {
+  background: linear-gradient(179.47deg, #101C3C 11.96%, #181818 99.54%);
+}
+
+.Mission .Mission-bg-gradient .Mission-Nav-Button .Mission-Nav-Bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* border: 1px solid  #1F3571 ; */
+  background: -webkit-gradient(linear, left top, left bottom, from(#101C3C), to(#181818));
+  background: linear-gradient(180deg, #101C3C 0%, #181818 100%);
+  background-color: #1F3571;
+  height: 53px;
+  border: 2px solid #1F3571;
+}
+
+.Mission .Mission-bg-gradient .Mission-Nav-Button .Mission-Nav-Bar li a {
+  font-family: 'Lato';
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.Mission .Mission-bg-gradient .Mission-Nav-Button .Mission-Nav-Bar .line-vvo {
+  border: 1px solid #1F3571;
+  height: 50px;
+}
+
+.Mission .Mission-bg-gradient .Mission-Nav-Button .Mission-Nav-Bar .logo-nav {
+  text-align: center;
+  width: 188px;
+}
+
+.Mission .Mission-bg-gradient .Mission-content h2 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: 0.666667px;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  padding-top: 118px;
+}
+
+.Mission .Mission-bg-gradient .Mission-content p {
+  font-family: 'Montserrat';
+  font-size: 22px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #F2F3F4;
+  width: 963px;
+  margin: 0 auto;
+  padding-top: 29px;
+}
+
+.Mission .Mission-bg-gradient .Mission-content img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 94px;
+  position: relative;
+}
+
+.Mission .Mission-bg-gradient .Mission-content h5 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 47px;
+  text-align: center;
+  letter-spacing: 7.33333px;
+  text-transform: uppercase;
+  color: #1850E2;
+  padding-bottom: 20px;
+  padding-top: 61.2px;
+}
+
+.Mission .Mission-bg-gradient .Mission-content .container-link {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 160px 160px 160px 160px 160px 160px;
+      grid-template-columns: 160px 160px 160px 160px 160px 160px;
+  -ms-grid-rows: 216px;
+      grid-template-rows: 216px;
+  -webkit-column-gap: 30px;
+          column-gap: 30px;
+  row-gap: 44px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 150px;
+}
+
+.Mission .Mission-bg-gradient .Mission-content .container-link .bb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #1850E2;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Mission .Mission-bg-gradient .Mission-content .container-link .bb a {
+  font-family: 'Oswald';
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  letter-spacing: 4px;
+  color: #1850E2;
+  text-decoration: none;
+}
+
+.Mission .Mission-bg-gradient .Mission-content .blur-logo .img-pos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Mission .Mission-bg-gradient .Mission-content .blur-logo .img-pos .img-left {
+  overflow: hidden;
+}
+
+.Mission .Mission-bg-gradient .Mission-content .blur-logo .img-pos .img-left img {
+  color: rgba(220, 56, 38, 0.423573);
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  margin-left: -271px;
+  padding-bottom: 314px;
+  position: relative;
+}
+
+.Mission .Mission-bg-gradient .Mission-content .blur-logo .img-pos .img-right {
+  overflow: hidden;
+}
+
+.Mission .Mission-bg-gradient .Mission-content .blur-logo .img-pos .img-right img {
+  color: rgba(220, 56, 38, 0.423573);
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  margin-left: 158px;
+  position: relative;
+}
+
+.Mission .Mission-bg-gradient .Mission-content p {
+  position: relative;
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #A3B9F3;
+  bottom: 430px;
+}
+
+.container-Competition {
+  margin-top: 121px;
+}
+
+.container-Competition .Competition-2020 h2 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 78px;
+  text-align: center;
+  letter-spacing: 0.666667px;
+  text-transform: uppercase;
+  color: #181818;
+}
+
+.container-Competition .Competition-2020 .images-competition {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 84px;
+}
+
+.container-Competition .Competition-2020 .images-competition .vertical-line {
+  border: 1px solid #7496ED;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.container-Competition .Competition-2020 .images-competition .images-position {
+  width: 119px;
+}
+
+.container-Competition .Competition-2020 .images-competition .images-position p {
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #181818;
+  margin-top: 16px;
+}
+
+.container-Competition .text-competition {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-Competition .text-competition .text-left-inf {
+  width: 541px;
+  margin-right: 22px;
+}
+
+.container-Competition .text-competition .text-left-inf p {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: 0.25px;
+  color: #181818;
+}
+
+.container-Competition .text-competition .text-left-inf p span a {
+  color: #1850E2;
+  text-decoration: none;
+}
+
+.container-Competition .text-competition .text-right-inf {
+  width: 541px;
+}
+
+.container-Competition .text-competition .text-right-inf .right-zone {
+  margin-bottom: 47px;
+}
+
+.container-Competition .text-competition .text-right-inf .right-zone h3 {
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #181818;
+}
+
+.container-Competition .text-competition .text-right-inf .right-zone p {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.266667px;
+  color: #181818;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.container-Competition .text-competition .text-right-inf .right-zone a {
+  margin-bottom: 47px;
+  text-decoration: none;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.266667px;
+  color: #1850E2;
+}
+
+.container-Competition .line-com {
+  border: 1px solid #7496ED;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 85%;
+}
+
+.container-Competition .Sponsors .text-Sponsors h3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 122%;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(179.47deg, #101C3C 11.96%, #181818 99.54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.container-Competition .Sponsors .text-Sponsors p {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 119%;
+  text-align: center;
+  letter-spacing: 0.266667px;
+  color: #1850E2;
+  margin-top: 15px;
+}
+
+.container-Competition .Sponsors .galory-Sponsors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 47px;
+  margin-bottom: 139px;
+}
+
+.container-Competition .Sponsors .galory-Sponsors .cell {
+  width: 350px;
+  height: 104px;
+  background: #F2F3F4;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-Competition .Sponsors .galory-Sponsors .cell p {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #181818;
+}
+
+.container-Events {
+  background: #181818;
+}
+
+.container-Events .general-text-fon {
+  padding-top: 203px;
+}
+
+.container-Events .general-text-fon h3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 122%;
+  text-align: center;
+  letter-spacing: 0.666667px;
+  text-transform: uppercase;
+  color: #F2F3F4;
+}
+
+.container-Events .general-text-fon p {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #F2F3F4;
+  margin-top: 29px;
+  margin-bottom: 100px;
+}
+
+.container-Events .general-text-fon .table-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+.container-Events .general-text-fon .table-start .table-cell {
+  width: 367px;
+  height: 238px;
+  border: 1px #1850E2 solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-Events .general-text-fon .table-start .table-cell h4 {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #1850E2;
+}
+
+.container-Events .general-text-fon .table-start .table-cell p {
+  margin: 0 auto;
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138%;
+  text-align: center;
+  letter-spacing: 0.266667px;
+  color: #1850E2;
+  margin-left: 38px;
+  margin-right: 38px;
+  margin-top: 8px;
+}
+
+.container-Events .general-text-fon .table-start .cell4,
+.container-Events .general-text-fon .table-start .cell5 {
+  width: 551px;
+}
+
+.container-Events .general-text-fon .Additional-Events {
+  margin-top: 60px;
+}
+
+.container-Events .general-text-fon .Additional-Events .content-table {
+  width: 558px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.container-Events .general-text-fon .Additional-Events .content-table h3 {
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #F2F3F4;
+}
+
+.container-Events .general-text-fon .Additional-Events .content-table p {
+  margin: 0 auto;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.266667px;
+  color: #F2F3F4;
+  margin-top: 8px;
+}
+
+.container-Events .general-text-fon .Additional-Events .table-Events {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.container-Events .general-text-fon .Additional-Events .table-Events .table-cell-Events {
+  border: 1px #1850E2 solid;
+  width: 556px;
+  height: 238px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-Events .general-text-fon .Additional-Events .table-Events .table-cell-Events h4 {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  color: #1850E2;
+}
+
+.container-Events .general-text-fon .Additional-Events .table-Events .table-cell-Events p {
+  margin: 0 auto;
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 138%;
+  text-align: center;
+  letter-spacing: 0.266667px;
+  color: #1850E2;
+  margin-left: 38px;
+  margin-right: 38px;
+  margin-top: 8px;
+}
+
+.container-Events .general-text-fon .SCORING-CRITERIA h3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 122%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F2F3F4;
+}
+
+.container-Events .general-text-fon .SCORING-CRITERIA p {
+  margin: 0 auto;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 119%;
+  text-align: center;
+  letter-spacing: 0.266667px;
+  color: #FFFFFF;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 710px;
+}
+
+.container-Events .general-text-fon .SCORING-CRITERIA .Manuscript {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 150px;
+}
+
+.container-Events .general-text-fon .SCORING-CRITERIA .Manuscript .left-Manuscript,
+.container-Events .general-text-fon .SCORING-CRITERIA .Manuscript .right-Manuscript {
+  width: 40%;
+}
+
+.container-Events .general-text-fon .SCORING-CRITERIA .Manuscript .left-Manuscript .tick,
+.container-Events .general-text-fon .SCORING-CRITERIA .Manuscript .right-Manuscript .tick {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70px;
+}
+
+.container-Events .general-text-fon .SCORING-CRITERIA .Manuscript .left-Manuscript .tick img,
+.container-Events .general-text-fon .SCORING-CRITERIA .Manuscript .right-Manuscript .tick img {
+  width: 22.5px;
+}
+
+.container-Events .general-text-fon .SCORING-CRITERIA .Manuscript .left-Manuscript .tick h5,
+.container-Events .general-text-fon .SCORING-CRITERIA .Manuscript .right-Manuscript .tick h5 {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1850E2;
+  margin-left: 28.5px;
+}
+
+.container-Events .general-text-fon .SCORING-CRITERIA .Manuscript .left-Manuscript .tick p,
+.container-Events .general-text-fon .SCORING-CRITERIA .Manuscript .right-Manuscript .tick p {
+  margin: 0 auto;
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 214%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.27px;
+  color: #1850E2;
+}
+
+.container-Events .general-text-fon .SCORING-CRITERIA .Manuscript .left-Manuscript .tic-tak .cnop,
+.container-Events .general-text-fon .SCORING-CRITERIA .Manuscript .right-Manuscript .tic-tak .cnop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.container-Events .general-text-fon .SCORING-CRITERIA .Manuscript .left-Manuscript .tic-tak .cnop p,
+.container-Events .general-text-fon .SCORING-CRITERIA .Manuscript .right-Manuscript .tic-tak .cnop p {
+  margin-left: 28.5px;
+}
+
+.container-Events .general-text-fon .Base-Camp {
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.container-Events .general-text-fon .Base-Camp .text-Base-Camp {
+  width: 710px;
+  margin: auto;
+}
+
+.container-Events .general-text-fon .Base-Camp .text-Base-Camp h3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 122%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F2F3F4;
+}
+
+.container-Events .general-text-fon .Base-Camp .text-Base-Camp p {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 119%;
+  text-align: center;
+  letter-spacing: 0.266667px;
+  color: #FFFFFF;
+}
+
+.container-Events .general-text-fon .Base-Camp .text-Base-Camp p span {
+  font-style: italic;
+}
+
+.container-Events .general-text-fon .Base-Camp img {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-88.66%, #1850E2), color-stop(119.75%, #181818));
+  background: linear-gradient(0deg, #1850E2 -88.66%, #181818 119.75%);
+  width: 920px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 470px;
+}
+
+.container-Events .general-text-fon .Security-Notice {
+  padding-bottom: 115px;
+}
+
+.container-Events .general-text-fon .Security-Notice h3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 122%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  margin-bottom: 40px;
+}
+
+.container-Events .general-text-fon .Security-Notice .Apart .Apart-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-Events .general-text-fon .Security-Notice .Apart .Apart-top .Apart-left,
+.container-Events .general-text-fon .Security-Notice .Apart .Apart-top .Apart-right {
+  text-align: center;
+  width: 350px;
+}
+
+.container-Events .general-text-fon .Security-Notice .Apart .Apart-top .Apart-left h4,
+.container-Events .general-text-fon .Security-Notice .Apart .Apart-top .Apart-right h4 {
+  font-family: 'Lato';
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 122%;
+  text-align: center;
+  letter-spacing: 0.345px;
+  color: #1850E2;
+  border-bottom: 5px solid #1850E2;
+  width: 54px;
+  margin: auto;
+}
+
+.container-Events .general-text-fon .Security-Notice .Apart .Apart-top .Apart-left p,
+.container-Events .general-text-fon .Security-Notice .Apart .Apart-top .Apart-right p {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 119%;
+  text-align: center;
+  letter-spacing: 0.23px;
+  color: #7496ED;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+
+.container-Events .general-text-fon .Security-Notice .Apart .Apart-bottom {
+  text-align: center;
+  width: 350px;
+  margin: auto;
+}
+
+.container-Events .general-text-fon .Security-Notice .Apart .Apart-bottom h4 {
+  font-family: 'Lato';
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 122%;
+  text-align: center;
+  letter-spacing: 0.345px;
+  color: #1850E2;
+  border-bottom: 5px solid #1850E2;
+  width: 54px;
+  margin: auto;
+}
+
+.container-Events .general-text-fon .Security-Notice .Apart .Apart-bottom p {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 119%;
+  text-align: center;
+  letter-spacing: 0.23px;
+  color: #7496ED;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 26px;
+}
+
+.hotel {
+  margin-top: 150px;
+  margin-bottom: 130px;
+}
+
+.hotel .hotel-rpof .hotel-content .hotel-up-cont {
+  margin-bottom: 29px;
+}
+
+.hotel .hotel-rpof .hotel-content .hotel-up-cont h3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 122%;
+  text-align: center;
+  letter-spacing: 0.666667px;
+  text-transform: uppercase;
+  color: #181818;
+  margin-bottom: 29px;
+}
+
+.hotel .hotel-rpof .hotel-content .hotel-up-cont p {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  width: 910px;
+  font-size: 22px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #212529;
+  margin: auto;
+}
+
+.hotel .hotel-rpof .hotel-content .hotel-bb-con {
+  margin-bottom: 80px;
+}
+
+.hotel .hotel-rpof .hotel-content .hotel-bb-con ul li {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #212529;
+}
+
+.hotel .hotel-rpof .hotel-content .hotel-bb-con ul .one-tiptop {
+  font-weight: 700;
+}
+
+.hotel .hotel-rpof .hotel-img {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.hotel .hotel-rpof .hotel-img img {
+  width: 920px;
+}
+
+.hotel .hotel-rpof .hotel-dd-content {
+  margin-bottom: 90.5px;
+}
+
+.hotel .hotel-rpof .hotel-dd-content h4 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 122%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+}
+
+.hotel .hotel-rpof .hotel-dd-content .hotel-room {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 58px;
+}
+
+.hotel .hotel-rpof .hotel-dd-content .hotel-room .room-boom h5 {
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #181818;
+  margin-bottom: 12px;
+}
+
+.hotel .hotel-rpof .hotel-dd-content .hotel-room .room-boom p {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.266667px;
+  color: #181818;
+  width: 280px;
+}
+
+.hotel .hotel-rpof .hotel-dd-content .hotel-room .line-room {
+  border: 1px solid #D1DCF9;
+}
+
+.hotel .hotel-rpof .hotel-btn {
+  width: 349px;
+  height: 45px;
+  background: #1850E2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+.hotel .hotel-rpof .hotel-btn a {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 88%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  text-decoration: none;
+}
+
+.Costs {
+  background: #1F3571;
+  mix-blend-mode: color;
+}
+
+.Costs .Costs-competition .Costs-fees {
+  padding-top: 210px;
+  margin-bottom: 130px;
+}
+
+.Costs .Costs-competition .Costs-fees h3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 122%;
+  text-align: center;
+  letter-spacing: 0.666667px;
+  text-transform: uppercase;
+  color: #F2F3F4;
+}
+
+.Costs .Costs-competition .Costs-fees p {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #F2F3F4;
+  margin-top: 19px;
+}
+
+.Costs .Costs-competition .Also-included h4 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 123%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  margin-bottom: 39px;
+}
+
+.Costs .Costs-competition .Also-included .included {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 85px;
+}
+
+.Costs .Costs-competition .Also-included .included .collection-pruf img {
+  display: block;
+  margin: auto;
+  margin-bottom: 44px;
+}
+
+.Costs .Costs-competition .Also-included .included .collection-pruf .exile-tt {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.Costs .Costs-competition .Also-included .included .collection-pruf .exile-tt a {
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 1.66667px;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  text-decoration: none;
+}
+
+.Costs .Costs-competition .Also-included .included .collection-pruf .exile-tt .vendetta {
+  color: #F2F3F4;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Costs .Costs-competition .Also-included .included .collection-pruf p {
+  width: 165px;
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.266667px;
+  color: #F2F3F4;
+}
+
+.Costs .Costs-competition .Also-included .included .Also-line {
+  border: 1px solid #1850E2;
+  height: 91.5px;
+}
+
+.Costs .Costs-competition .line-trac {
+  border: 1px solid #1850E2;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  margin-bottom: 180px;
+}
+
+.Costs .Costs-competition .polis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 228px;
+}
+
+.Costs .Costs-competition .polis .left-polis h4 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 123%;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  margin-bottom: 21px;
+}
+
+.Costs .Costs-competition .polis .left-polis p {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 155%;
+  letter-spacing: 0.25px;
+  color: #F2F3F4;
+  margin-bottom: 40px;
+  width: 540px;
+}
+
+.Costs .Costs-competition .polis .left-polis .polis-btn {
+  width: 349px;
+  height: 45px;
+  background: #1850E2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Costs .Costs-competition .polis .left-polis .polis-btn a {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 88%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #F2F3F4;
+}
+
+.Costs .Costs-competition .polis .right-polis img {
+  width: 353px;
+  height: 353px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Registration {
+  background: linear-gradient(180.43deg, #101C3C 8.11%, #181818 83.28%);
+}
+
+.Registration .obsh {
+  padding-top: 85px;
+}
+
+.Registration .obsh .number-reg h4 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 122%;
+  text-align: center;
+  letter-spacing: 0.666667px;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  margin-bottom: 25px;
+}
+
+.Registration .obsh .number-reg p {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.25px;
+  color: #F2F3F4;
+  margin: auto;
+  margin-bottom: 21px;
+  width: 509px;
+}
+
+.Registration .obsh .number-reg .polomo {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.266667px;
+  color: #F2F3F4;
+  margin: auto;
+  margin-bottom: 71px;
+  width: 540px;
+}
+
+.Registration .obsh .time-tim {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.Registration .obsh .time-tim .countdown-title {
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+.Registration .obsh .time-tim .countdown {
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+.Registration .obsh .time-tim .countdown-number {
+  padding: 10px;
+  border-radius: 3px;
+  background: #00bf96;
+  display: inline-block;
+}
+
+.Registration .obsh .time-tim .countdown-time {
+  padding: 15px;
+  border-radius: 3px;
+  background: #00816a;
+  display: inline-block;
+}
+
+.Registration .obsh .time-tim .countdown-text {
+  display: block;
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+.Registration .obsh .step-1 .zagol h4 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 123%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  margin-top: 7px;
+  margin-bottom: 94px;
+}
+
+.Registration .obsh .step-1 .zagol p {
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #F2F3F4;
+}
+
+.Registration .obsh .step-1 .list-step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.Registration .obsh .step-1 .list-step .post-step h5 {
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  margin-bottom: 12px;
+}
+
+.Registration .obsh .step-1 .list-step .post-step p {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.266667px;
+  color: #F2F3F4;
+  width: 349px;
+}
+
+.Registration .obsh .paru-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 98px;
+}
+
+.Registration .obsh .paru-btn .btn-l {
+  width: 349px;
+  height: 45px;
+  background: #1850E2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 30px;
+}
+
+.Registration .obsh .paru-btn .btn-l a {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 88%;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  text-decoration: none;
+}
+
+.Registration .obsh .line-btn-pruf {
+  border: 1px solid #1F3571;
+  margin-bottom: 100px;
+}
+
+.Registration .obsh .tool-step .step-glo p {
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  margin-bottom: 7px;
+}
+
+.Registration .obsh .tool-step .step-glo h3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 123%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  margin-bottom: 27px;
+}
+
+.Registration .obsh .tool-step .step-glo .step-puf {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.266667px;
+  color: #F2F3F4;
+  width: 726px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.Registration .obsh .step-pro p {
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  margin-bottom: 7px;
+}
+
+.Registration .obsh .step-pro h3 {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 123%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  margin-bottom: 51px;
+}
+
+.Registration .obsh .step-pro .text-step3 {
+  font-family: 'Lato';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 0.266667px;
+  color: #F2F3F4;
+  width: 728px;
+  margin: auto;
+  padding-bottom: 124px;
+}
+
+.PAST-COMPETITIONS {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))), -webkit-gradient(linear, left bottom, left top, color-stop(-88.66%, #1850E2), color-stop(119.75%, #181818)), url(../images/btnchekbox.jpg);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), linear-gradient(0deg, #1850E2 -88.66%, #181818 119.75%), url(../images/btnchekbox.jpg);
+  background-blend-mode: normal, color, normal;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.PAST-COMPETITIONS .past-pos h3 {
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #181818;
+  padding-top: 80px;
+  margin-bottom: 44px;
+}
+
+.PAST-COMPETITIONS .past-pos .btn-chek-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 80.5px;
+}
+
+.PAST-COMPETITIONS .past-pos .btn-chek-box .btn-left {
+  width: 255px;
+  height: 45px;
+  background: #1850E2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 31px;
+}
+
+.PAST-COMPETITIONS .past-pos .btn-chek-box .btn-left a {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 88%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  text-decoration: none;
+}
+
+.PAST-COMPETITIONS .past-pos .btn-chek-box .btn-right {
+  width: 255px;
+  height: 45px;
+  background: #1850E2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.PAST-COMPETITIONS .past-pos .btn-chek-box .btn-right a {
+  font-family: 'Oswald';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 88%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #F2F3F4;
+  text-decoration: none;
+}
+/*# sourceMappingURL=2019excon.css.map */
